@@ -16,9 +16,6 @@
 
 ---
 
-> **💡 TIP PARA GITHUB (Sección "About"):** > Copia este texto y pégalo en la descripción principal de tu repositorio (el icono del engranaje en la esquina superior derecha):  
-> *"Dashboard de Inteligencia de Amenazas (IDS/NSM) con temática Synthwave. Analiza logs de Zeek y Suricata en tiempo real mediante una interfaz de escritorio ultrarrápida (Tkinter) o un panel web (Flask)."*
-
 ---
 
 ## 🕶️ LA VISIÓN
