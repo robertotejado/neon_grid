@@ -10,9 +10,14 @@
 
 *Bienvenido a la Red.* **NEON GRID** es un analizador de logs y dashboard para **Zeek** y **Suricata** con temática *retrowave/synthwave*. Visualiza el tráfico de tu red, caza ciberamenazas y monitoriza tu mainframe con estilo.
 
-[Características](#-características) • [Vistas Previas](#-conéctate-vistas-previas) • [Instalación](#-instalación-paso-a-paso) • [Uso](#-manual-de-operaciones-uso) • [Estructura de Logs](#-estructura-de-directorios)
+[Características](#-características) • [Vistas Previas](#-conéctate-vistas-previas) • [Instalación](#-instalación-paso-a-paso) • [Configuración PRO](#-configuración-del-entorno-pro) • [Uso](#-manual-de-operaciones-uso)
 
 </div>
+
+---
+
+> **💡 TIP PARA GITHUB (Sección "About"):** > Copia este texto y pégalo en la descripción principal de tu repositorio (el icono del engranaje en la esquina superior derecha):  
+> *"Dashboard de Inteligencia de Amenazas (IDS/NSM) con temática Synthwave. Analiza logs de Zeek y Suricata en tiempo real mediante una interfaz de escritorio ultrarrápida (Tkinter) o un panel web (Flask)."*
 
 ---
 
@@ -64,7 +69,7 @@ Un script de Python ejecutable e independiente que utiliza Tkinter. No requiere 
 
 ## ⚙️ INSTALACIÓN PASO A PASO
 
-Para que todo funcione a la perfección en tu sistema, sigue estos pasos recomendados.
+Para que todo funcione a la perfección en tu sistema, sigue estos pasos.
 
 **Requisitos Previos:**
 * Python 3.7 o superior instalado.
