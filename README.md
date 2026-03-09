@@ -50,7 +50,7 @@ Disponible en dos versiones distintas:
 ### 🌐 Edición Web
 Accede a tu inteligencia de amenazas desde cualquier lugar de la red. Cuenta con diseños responsivos dinámicos y recarga de datos.
 
-![Web Dashboard - Overview](zeek%20suricata%20neon%20dashboard%20web1.jpg)
+![Web Dashboard - Overview](zeek suricata neon dashboard web1.png)
 *Fig 1: Edición Web - Visión General y Estadísticas de Red*
 
 ![Web Dashboard - Suricata](zeek%20suricata%20neon%20dashboard%20web2.jpg)
