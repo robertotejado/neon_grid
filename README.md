@@ -53,7 +53,7 @@ Accede a tu inteligencia de amenazas desde cualquier lugar de la red. Cuenta con
 ![Web Dashboard - Overview](zeek_suricata_neon_dashboard_web1.png)
 *Fig 1: Edición Web - Visión General y Estadísticas de Red*
 
-![Web Dashboard - Suricata](zeek_suricata_neon_dashboard_web2.jpg)
+![Web Dashboard - Suricata](zeek_suricata_neon_dashboard_web2.png)
 *Fig 2: Edición Web - Alertas de Suricata y análisis de Fast.log*
 
 ### 💻 Edición de Escritorio
