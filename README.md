@@ -53,16 +53,16 @@ Accede a tu inteligencia de amenazas desde cualquier lugar de la red. Cuenta con
 ![Web Dashboard - Overview](zeek_suricata_neon_dashboard_web1.png)
 *Fig 1: Edición Web - Visión General y Estadísticas de Red*
 
-![Web Dashboard - Suricata](zeek%20suricata%20neon%20dashboard%20web2.jpg)
+![Web Dashboard - Suricata](zeek_suricata_neon_dashboard_web2.jpg)
 *Fig 2: Edición Web - Alertas de Suricata y análisis de Fast.log*
 
 ### 💻 Edición de Escritorio
 Un script de Python ejecutable e independiente que utiliza Tkinter. No requiere navegador.
 
-![Desktop Dashboard - Overview](zeek%20suricata%20neon%20dashboard%20desktop1.png)
+![Desktop Dashboard - Overview](zeek_suricata_neon_dashboard_desktop1.png)
 *Fig 3: Edición de Escritorio - Conexiones y Análisis de Protocolos*
 
-![Desktop Dashboard - Suricata](zeek%20suricata%20neon%20dashboard%20desktop2.jpg)
+![Desktop Dashboard - Suricata](zeek_suricata_neon_dashboard_desktop2.png)
 *Fig 4: Edición de Escritorio - Flujos de Capa de Aplicación y Descubrimiento de Archivos*
 
 ---
@@ -79,5 +79,5 @@ Para que todo funcione a la perfección en tu sistema, sigue estos pasos.
 ### 1. Clonar el Repositorio
 Abre tu terminal y descarga el código fuente a tu máquina local:
 ```bash
-git clone [https://github.com/TU_USUARIO/neon-grid.git](https://github.com/TU_USUARIO/neon-grid.git)
+git clone [https://github.com/robertotejado/neon-grid.git](https://github.com/robertotejado/neon-grid.git)
 cd neon-grid
