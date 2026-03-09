@@ -1,65 +1,102 @@
-# 🌌 N E O N  G R I D 🌌
-> **Network Threat Intelligence Dashboard  |  Powered by Suricata + Zeek**
+<div align="center">
 
-![Python](https://img.shields.io/badge/System-Python_3.8+-00f5ff.svg?style=for-the-badge&logo=python)
-![Flask](https://img.shields.io/badge/Web_Engine-Flask-ff2d78.svg?style=for-the-badge&logo=flask)
-![Tkinter](https://img.shields.io/badge/Desktop_Engine-Tkinter-bf00ff.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-ffe600.svg?style=for-the-badge)
+# ◈ NEON GRID ◈
+**Dashboard de Inteligencia de Amenazas de Red // Suricata + Zeek**
 
-Bienvenido al Grid, usuario. 
+[![Python 3.x](https://img.shields.io/badge/Python-3.x-00f5ff.svg?style=for-the-badge&logo=python&logoColor=white)](#)
+[![GUI](https://img.shields.io/badge/Tkinter-Escritorio-ff2d78.svg?style=for-the-badge)](#)
+[![Web](https://img.shields.io/badge/Flask-Web-ffe600.svg?style=for-the-badge)](#)
+[![License: MIT](https://img.shields.io/badge/Licencia-MIT-bf00ff.svg?style=for-the-badge)](#)
 
-**NEON GRID** es un analizador de logs para Monitorización de Seguridad de Red (NSM) y Sistemas de Detección de Intrusos (IDS) diseñado para aquellos que operan en las sombras de la red. Deja atrás las interfaces aburridas y adéntrate en un dashboard de inteligencia de amenazas envuelto en una estética puramente **Retrowave / Synthwave / Outrun**.
+*Bienvenido a la Red.* **NEON GRID** es un analizador de logs y dashboard para **Zeek** y **Suricata** con temática *retrowave/synthwave*. Visualiza el tráfico de tu red, caza ciberamenazas y monitoriza tu mainframe con estilo.
 
-Procesa el tráfico, caza las anomalías y visualiza los datos de **Suricata** y **Zeek** al vuelo, sin bases de datos pesadas. Solo tú, tus logs y el resplandor del neón.
+[Características](#-características) • [Vistas Previas](#-conéctate-vistas-previas) • [Logs Soportados](#-logs-soportados) • [Instalación](#-requisitos-e-instalación) • [Uso](#-secuencia-de-arranque-uso) 
 
----
-
-## 📸 G A L E R Í A  V I S U A L
-
-### 🌐 [ WEB EDITION ] 
-Acceso remoto activado. Sirve la inteligencia de amenazas a través de tu red con el motor Flask.
-
-**» Vista General y Estadísticas de Protocolos**
-![Web Overview](zeek%20suricata%20neon%20dashboard%20web1.jpg)
-
-**» Panel de Suricata y Registro de Alertas**
-![Web Suricata](zeek%20suricata%20neon%20dashboard%20web2.jpg)
-
-### 💻 [ DESKTOP EDITION ] 
-Inmersión total. Ejecuta el binario local impulsado por Tkinter para análisis *offline* y táctico.
-
-**» Consola de Vista General**
-![Desktop Overview](zeek%20suricata%20neon%20dashboard%20desktop1.png)
-
-**» Trazado de Suricata y Descubrimiento de Nodos**
-![Desktop Suricata](zeek%20suricata%20neon%20dashboard%20desktop2.jpg)
+</div>
 
 ---
 
-## ⚡ C A R A C T E R Í S T I C A S  S Y S T E M A
+## 🕶️ LA VISIÓN
 
-* 👾 **Doble Interfaz**: Elige tu vector de ataque. Corre la versión local de Escritorio (ligera y nativa) o despliega el servidor Web para acceso desde cualquier terminal.
-* 🕶️ **Vibe Outrun**: Una interfaz de usuario retro-futurista con paletas de colores *cyan*, *magenta* y *amarillo neón*, gráficos brillantes y tipografía de terminal antiguo.
-* 📡 **Auto-Descubrimiento**: El analizador rastrea automáticamente los logs de Zeek y Suricata en directorios planos o subcarpetas. Cero configuración, máxima acción.
-* 📊 **Analítica Táctica**:
-    * **Visión Global**: Conexiones totales, tráfico masivo, distribución de protocolos y Top IPs.
-    * **Radar de Alertas**: Gravedad de impactos, categorías y un feed en tiempo real interceptando `fast.log` y `eve.json`.
-    * **Capa de Red y DNS**: Puertos de destino más atacados, códigos de respuesta DNS y auditoría de certificados TLS/X.509.
-    * **Motor Suricata**: Análisis profundo de paquetes decodificados, flujos TCP/UDP y estado de las reglas.
-* 💾 **Cero Bases de Datos**: Lee, parsea y renderiza directamente desde los archivos JSON y texto. Rápido y letal.
+Olvídate de los aburridos y clínicos visores de logs. NEON GRID trae la estética del *cyberpunk* de los 80s y el *outrun* a tu stack de Monitorización de Seguridad de Red (NSM). Ya sea que estés operando un SOC local, analizando un PCAP, o simplemente quieras que tu *homelab* parezca sacado de una película de hackers, NEON GRID procesa tus logs crudos (texto/JSON) y los convierte en visualizaciones espectaculares bañadas en luces de neón.
+
+Disponible en dos versiones distintas:
+1. **Edición de Escritorio:** Una interfaz gráfica (GUI) ligera y ultrarrápida impulsada por Tkinter.
+2. **Edición Web:** Un dashboard para navegador impulsado por Flask, perfecto para monitorización remota.
 
 ---
 
-## 🛠️ E Q U I P A M I E N T O  N E C E S A R I O
+## ⚡ CARACTERÍSTICAS
 
-* **Python 3.8+** instalado en tu mainframe.
-* Archivos de log generados por **Suricata** y/o **Zeek**.
+* **Sobrecarga de Interfaz Dual:** Elige entre una aplicación de escritorio independiente o un panel de control web.
+* **Autodescubrimiento "Zero-Config":** Apunta a un directorio y automáticamente rastreará tus logs de Zeek y Suricata (soporta estructura plana o subcarpetas `zeek/` y `suricata/`).
+* **Visualización de Datos Synthwave:** Gráficos de barras de neón personalizados, gráficos circulares brillantes y tablas de datos con temática retro.
+* **Métricas Completas de Amenazas:**
+    * Top IPs y Puertos de Origen/Destino
+    * Distribuciones de Protocolos y Estados de Conexión
+    * Consultas DNS y Códigos de Respuesta
+    * Versiones TLS/SSL y rastreo de Certificados X.509
+    * Categorías de Alertas de Suricata y Distribución de Severidad
+* **Procesamiento de Logs:** Ingiere sin problemas `eve.json`, `fast.log`, `conn.log`, y más.
 
 ---
 
-## 🚀 S E C U E N C I A  D E  A R R A N Q U E
+## 📸 CONÉCTATE: VISTAS PREVIAS
 
-**1. Descarga el código fuente en tu terminal:**
+### 🌐 Edición Web
+Accede a tu inteligencia de amenazas desde cualquier lugar de la red. Cuenta con diseños responsivos dinámicos y recarga de datos.
+
+![Web Dashboard - Overview](zeek%20suricata%20neon%20dashboard%20web1.jpg)
+*Fig 1: Edición Web - Visión General y Estadísticas de Red*
+
+![Web Dashboard - Suricata](zeek%20suricata%20neon%20dashboard%20web2.jpg)
+*Fig 2: Edición Web - Alertas de Suricata y análisis de Fast.log*
+
+### 💻 Edición de Escritorio
+Un script de Python ejecutable e independiente que utiliza Tkinter. No requiere navegador.
+
+![Desktop Dashboard - Overview](zeek%20suricata%20neon%20dashboard%20desktop1.png)
+*Fig 3: Edición de Escritorio - Conexiones y Análisis de Protocolos*
+
+![Desktop Dashboard - Suricata](zeek%20suricata%20neon%20dashboard%20desktop2.jpg)
+*Fig 4: Edición de Escritorio - Flujos de Capa de Aplicación y Descubrimiento de Archivos*
+
+---
+
+## 💾 LOGS SOPORTADOS
+
+NEON GRID espera las salidas de logs estándar de Zeek y Suricata.
+
+**▶ SURICATA:**
+* `eve.json` (Alertas y Estadísticas)
+* `fast.log`
+* `suricata.log`
+* `stats.log`
+
+**◈ ZEEK:**
+* `conn.log`
+* `dns.log`
+* `http.log`
+* `ssl.log`
+* `dhcp.log`
+* `weird.log`
+* `x509.log`
+* `notice.log`
+
+---
+
+## 🛠️ REQUISITOS E INSTALACIÓN
+
+**Requisitos Previos:**
+* Python 3.7 o superior
+* *(Solo Edición Web)* Librería Flask.
+* *(Solo Edición Escritorio)* Tkinter (Normalmente incluido en la librería estándar de Python. En algunas distribuciones Linux, podrías necesitar instalarlo con `sudo apt-get install python3-tk`).
+
+Clona el repositorio en tu mainframe local:
+
 ```bash
-git clone [https://github.com/tu-usuario/neon-grid.git](https://github.com/tu-usuario/neon-grid.git)
+git clone [https://github.com/TU_USUARIO/neon-grid.git](https://github.com/TU_USUARIO/neon-grid.git)
 cd neon-grid
+
+# Instala las dependencias necesarias (para la versión Web)
+pip install -r requirements.txt
