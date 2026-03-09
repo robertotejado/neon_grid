@@ -20,19 +20,19 @@ Procesa el tráfico, caza las anomalías y visualiza los datos de **Suricata** y
 Acceso remoto activado. Sirve la inteligencia de amenazas a través de tu red con el motor Flask.
 
 **» Vista General y Estadísticas de Protocolos**
-![Web Overview](assets/web_overview.jpg)
+![Web Overview](zeek%20suricata%20neon%20dashboard%20web1.jpg)
 
 **» Panel de Suricata y Registro de Alertas**
-![Web Suricata](assets/web_suricata.jpg)
+![Web Suricata](zeek%20suricata%20neon%20dashboard%20web2.jpg)
 
 ### 💻 [ DESKTOP EDITION ] 
 Inmersión total. Ejecuta el binario local impulsado por Tkinter para análisis *offline* y táctico.
 
 **» Consola de Vista General**
-![Desktop Overview](assets/desktop_overview.png)
+![Desktop Overview](zeek%20suricata%20neon%20dashboard%20desktop1.png)
 
-**» Trazado de Suricata y Descubrimiento de Nodos (Archivos)**
-![Desktop Suricata](assets/desktop_suricata.jpg)
+**» Trazado de Suricata y Descubrimiento de Nodos**
+![Desktop Suricata](zeek%20suricata%20neon%20dashboard%20desktop2.jpg)
 
 ---
 
@@ -61,5 +61,5 @@ Inmersión total. Ejecuta el binario local impulsado por Tkinter para análisis 
 
 **1. Descarga el código fuente en tu terminal:**
 ```bash
-git clone [https://github.com/robertotejado/neon-grid.git](https://github.com/tu-usuario/neon-grid.git)
+git clone [https://github.com/tu-usuario/neon-grid.git](https://github.com/tu-usuario/neon-grid.git)
 cd neon-grid
