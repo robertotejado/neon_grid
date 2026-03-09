@@ -10,7 +10,7 @@
 
 *Bienvenido a la Red.* **NEON GRID** es un analizador de logs y dashboard para **Zeek** y **Suricata** con temática *retrowave/synthwave*. Visualiza el tráfico de tu red, caza ciberamenazas y monitoriza tu mainframe con estilo.
 
-[Características](#-características) • [Vistas Previas](#-conéctate-vistas-previas) • [Logs Soportados](#-logs-soportados) • [Instalación](#-requisitos-e-instalación) • [Uso](#-secuencia-de-arranque-uso) 
+[Características](#características) • [Vistas Previas](#conéctate-vistas-previas) • [Logs Soportados](#logs-soportados) • [Instalación](#requisitos-e-instalación) • [Uso](#secuencia-de-arranque-uso) 
 
 </div>
 
