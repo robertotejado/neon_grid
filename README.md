@@ -78,3 +78,50 @@ Abre tu terminal y descarga el código fuente a tu máquina local:
 ```bash
 git clone [https://github.com/robertotejado/neon-grid.git](https://github.com/robertotejado/neon-grid.git)
 cd neon-grid
+
+## Crear un Entorno Virtual (Recomendado)
+
+Aísla las dependencias del proyecto para evitar conflictos:
+Bash
+
+# En Windows:
+python -m venv venv
+venv\Scripts\activate
+
+# En Linux/macOS:
+python3 -m venv venv
+source venv/bin/activate
+
+
+🚀 MANUAL DE OPERACIONES (USO)
+
+NEON GRID es flexible. Puedes iniciar el entorno gráfico local o levantar el servidor web.
+💻 Lanzar la Edición de Escritorio
+
+Puedes iniciar la aplicación directamente. Si no le pasas ninguna ruta, el programa te pedirá a través de una ventana emergente que selecciones la carpeta donde guardas tus logs.
+Bash
+
+# Iniciar sin parámetros (te pedirá seleccionar la carpeta)
+python neon_dashboard_desktop.py
+
+# Iniciar apuntando directamente a tu carpeta de logs
+python neon_dashboard_desktop.py /ruta/a/tus/logs
+
+🌐 Lanzar la Edición Web
+
+El servidor web es ideal para dejarlo corriendo en una Raspberry Pi, un servidor dedicado, o visualizarlo en remoto.
+Bash
+
+# Lanzamiento básico (escanea el directorio actual y abre en el puerto 5000)
+python neon_dashboard_web.py /ruta/a/tus/logs
+
+Una vez que veas el mensaje de inicio en la terminal, abre tu navegador y entra en: http://localhost:5000
+
+Opciones Avanzadas para la Edición Web:
+Puedes usar banderas (flags) para personalizar exactamente cómo y dónde se ejecuta el servidor:
+Argumento	Descripción	Ejemplo de uso
+log_dir	(Opcional) Directorio raíz donde buscar.	python neon_dashboard_web.py /var/log/
+--suricata	Ruta específica solo para los logs de Suricata.	--suricata /var/log/suricata
+--zeek	Ruta específica solo para los logs de Zeek.	--zeek /opt/zeek/logs/current
+--port	Puerto donde se alojará el servidor (por defecto: 5000).	--port 8080
+--host	Interfaz de red (usa 0.0.0.0 para acceso en red local).	--host 0.0.0.0
