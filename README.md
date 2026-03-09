@@ -10,7 +10,7 @@
 
 *Bienvenido a la Red.* **NEON GRID** es un analizador de logs y dashboard para **Zeek** y **Suricata** con temática *retrowave/synthwave*. Visualiza el tráfico de tu red, caza ciberamenazas y monitoriza tu mainframe con estilo.
 
-[Características](#características) • [Vistas Previas](#conéctate-vistas-previas) • [Logs Soportados](#logs-soportados) • [Instalación](#requisitos-e-instalación) • [Uso](#secuencia-de-arranque-uso) 
+[Características](#-características) • [Vistas Previas](#-conéctate-vistas-previas) • [Instalación](#-instalación-paso-a-paso) • [Uso](#-manual-de-operaciones-uso) • [Estructura de Logs](#-estructura-de-directorios)
 
 </div>
 
@@ -37,7 +37,6 @@ Disponible en dos versiones distintas:
     * Consultas DNS y Códigos de Respuesta
     * Versiones TLS/SSL y rastreo de Certificados X.509
     * Categorías de Alertas de Suricata y Distribución de Severidad
-* **Procesamiento de Logs:** Ingiere sin problemas `eve.json`, `fast.log`, `conn.log`, y más.
 
 ---
 
@@ -63,40 +62,17 @@ Un script de Python ejecutable e independiente que utiliza Tkinter. No requiere 
 
 ---
 
-## 💾 LOGS SOPORTADOS
+## ⚙️ INSTALACIÓN PASO A PASO
 
-NEON GRID espera las salidas de logs estándar de Zeek y Suricata.
-
-**▶ SURICATA:**
-* `eve.json` (Alertas y Estadísticas)
-* `fast.log`
-* `suricata.log`
-* `stats.log`
-
-**◈ ZEEK:**
-* `conn.log`
-* `dns.log`
-* `http.log`
-* `ssl.log`
-* `dhcp.log`
-* `weird.log`
-* `x509.log`
-* `notice.log`
-
----
-
-## 🛠️ REQUISITOS E INSTALACIÓN
+Para que todo funcione a la perfección en tu sistema, sigue estos pasos recomendados.
 
 **Requisitos Previos:**
-* Python 3.7 o superior
-* *(Solo Edición Web)* Librería Flask.
-* *(Solo Edición Escritorio)* Tkinter (Normalmente incluido en la librería estándar de Python. En algunas distribuciones Linux, podrías necesitar instalarlo con `sudo apt-get install python3-tk`).
+* Python 3.7 o superior instalado.
+* Git instalado en tu sistema.
+* *Nota para usuarios Linux:* Es posible que necesites instalar Tkinter para la versión de escritorio (`sudo apt-get install python3-tk`).
 
-Clona el repositorio en tu mainframe local:
-
+### 1. Clonar el Repositorio
+Abre tu terminal y descarga el código fuente a tu máquina local:
 ```bash
 git clone [https://github.com/TU_USUARIO/neon-grid.git](https://github.com/TU_USUARIO/neon-grid.git)
 cd neon-grid
-
-# Instala las dependencias necesarias (para la versión Web)
-pip install -r requirements.txt
