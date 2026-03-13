@@ -76,7 +76,8 @@ Para que todo funcione a la perfección en tu sistema, sigue estos pasos.
 ### 1. Clonar el Repositorio
 Abre tu terminal y descarga el código fuente a tu máquina local:
 ```bash
-git clone [https://github.com/robertotejado/neon-grid.git](https://github.com/robertotejado/neon-grid.git)
+git clone https://github.com/robertotejado/neon-grid.git
+(https://github.com/robertotejado/neon-grid.git)
 cd neon-grid
 
 ## Crear un Entorno Virtual (Recomendado)
